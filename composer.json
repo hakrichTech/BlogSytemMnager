@@ -1,23 +1,20 @@
+
 {
-    "name": "hakeem/blog",
+    "name": "hakrich-tech/blog_sdk",
     "description": "PHP Hakeem Blog system",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "hakrichTech",
+            "name": "Hakeem Rasheed code",
             "email": "hakeemshamavu@hakrichapp.tech"
         }
     ],
     "autoload": {
         "psr-4": {
-          "BogSystemManager\\": "src",
-          "BlogCreator\\": "create"
-        }
-      },
-    "require": {
-        "hakrich-tech/object-add-on": "1.6"
+            "BogSystemManager\\": "src",
+            "BlogCreator\\": "create"
+          }
     },
-    "minimum-stability": "dev"
+    "require": {}
 }
-
