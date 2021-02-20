@@ -18,6 +18,6 @@
     "require": {
         "hakrich-tech/object-add-on": "1.6"
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "dev"
 }
 
