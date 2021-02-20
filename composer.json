@@ -1,5 +1,5 @@
 {
-    "name": "hakrich-tech/blog-system-manager",
+    "name": "hakrich-tech/blog",
     "description": "PHP Hakeem Blog system",
     "type": "library",
     "license": "MIT",
@@ -19,3 +19,4 @@
         "hakrich-tech/object-add-on": "1.6"
     }
 }
+
