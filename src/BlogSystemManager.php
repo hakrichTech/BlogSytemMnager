@@ -19,7 +19,7 @@ class BogSystemManager extends Object_
     {
         $array = array();
         for ($i=0; $i < count(self::$system_keys); $i++) { 
-          $array[self::$system_keys[$i]] = file_get_contents(__DIR__.'/db/.'.self::$system_keys[$i]);
+          $array[self::$system_keys[$i]] = file_get_contents(__DIR__.'/../db/.'.self::$system_keys[$i]);
         }
         return $array;
     }
